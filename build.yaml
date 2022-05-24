@@ -15,3 +15,7 @@
 include:
   - board: weekin840_m2
     shield: weekin_roc
+  - board: nrfmicro_13
+    shield: corne_left
+  - board: nrfmicro_13
+    shield: corne_right
