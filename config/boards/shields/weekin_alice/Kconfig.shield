@@ -1,0 +1,8 @@
+# Copyright (c) 2022 The ZMK Contributors
+# SPDX-License-Identifier: MIT
+
+# 定义 sheild 的顶级 Kconfig 值，
+# 使用提供的实用程序来根据 sheild 列表默认值
+
+config SHIELD_WEEKIN_ALICE
+    def_bool $(shields_list_contains,weekin_alice)
