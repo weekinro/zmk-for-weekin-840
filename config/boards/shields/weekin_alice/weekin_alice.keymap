@@ -128,7 +128,7 @@
 // -----------------------------------------------------------------------------------------
 // |    | RGB BRI+ | RGB SAT+ | RGB HUE+ | RGB ANI+ | RGB TOG |   | BT1 | BT2 | BT3 | BT4 | BT5 | BT CLR |
 // |    | RGB BRI- | RGB SAT- | RGB HUE- | RGB ANI- |         |   | LEFT| UP  | DOWN|RIGHT|     |        |
-// |    |   CAPS   |          |          |  RESET   |         |   | HOME| END |     |     |     |        |
+// |    |          |          |          |  RESET   |         |   | HOME| END |     |     |     |        |
 //                                              |     |     |     |     |     |
                   setting_layer {
         label = "SETTING";
