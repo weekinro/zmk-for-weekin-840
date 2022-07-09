@@ -135,7 +135,7 @@
         bindings = <
   &trans     &trans       &trans    &trans   &trans    &trans    &trans       &trans    &trans     &trans     &trans       &trans     &rgb_ug RGB_SAI   &rgb_ug RGB_SAD       &trans 
   &trans     &trans       &trans    &trans   &trans    &trans    &trans       &trans    &trans     &trans     &trans       &trans     &rgb_ug RGB_HUI   &rgb_ug RGB_HUD       &trans
-  &trans     &trans       &trans    &trans   &trans    &trans    &trans       &trans    &trans     &trans     &trans       &trans     &trans                                  &rgb_ug RGB_TOG
+  &reset     &trans       &trans    &trans   &trans    &trans    &trans       &trans    &trans     &trans     &trans       &trans     &trans                                  &rgb_ug RGB_TOG
              &trans       &trans    &trans   &trans    &trans    &trans       &trans    &trans     &trans     &trans       &trans     &trans            &rgb_ug RGB_BRI       &trans
              &trans       &trans             &trans              &trans                 &trans                &trans                  &rgb_ug RGB_EFF   &rgb_ug RGB_BRD       &rgb_ug RGB_EFR 
                         >;
