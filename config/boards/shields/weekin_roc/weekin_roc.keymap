@@ -16,15 +16,15 @@
 #define SETTING 4
 
 / {
-    // macro {
-    //     macro_hello: macro_hello {
-    //         // hello
-    //         compatible = "zmk,behavior-macro";
-    //         label = "MACRO_HELLO";
-    //         #binding-cells = <0>;
-    //         bindings = <&kp H &kp E &kp L &kp L &kp O>;
-    //     };
-	// };
+     macro {
+         macro_hello: macro_hello {
+             // hello
+             compatible = "zmk,behavior-macro";
+             label = "MACRO_HELLO";
+             #binding-cells = <0>;
+             bindings = <&kp H &kp E &kp L &kp L &kp O>;
+         };
+	 };
 
     keymap {
         compatible = "zmk,keymap";
