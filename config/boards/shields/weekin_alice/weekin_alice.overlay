@@ -21,30 +21,30 @@
 
         // 列
         col-gpios
-            = <&weekin840_m2 9  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // c0
-            , <&weekin840_m2 8  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // c1
-            , <&weekin840_m2 17 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // c2
+            = <&weekin840_m2 43  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // c0
+            , <&weekin840_m2 41  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // c1
+            , <&weekin840_m2 35 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // c2
             , <&weekin840_m2 33 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // c3
-            , <&weekin840_m2 35 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // c4
-            , <&weekin840_m2 41 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // c5
-            , <&weekin840_m2 43 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // c6
-            , <&weekin840_m2 32 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // c7
-            , <&weekin840_m2 28 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // c8
-            , <&weekin840_m2 30 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // c9
-            , <&weekin840_m2 22 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // c10
-            , <&weekin840_m2 20 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // c11
-            , <&weekin840_m2 16 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // c12
-            , <&weekin840_m2 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // c13
-            , <&weekin840_m2 7  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // c14
+            , <&weekin840_m2 42 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // c4
+            , <&weekin840_m2 40 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // c5
+            , <&weekin840_m2 38 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // c6
+            , <&weekin840_m2 17 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // c7
+            , <&weekin840_m2 16 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // c8
+            , <&weekin840_m2 28 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // c9
+            , <&weekin840_m2 30 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // c10
+            , <&weekin840_m2 8  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // c11
+            , <&weekin840_m2 9  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // c12
+            , <&weekin840_m2 7  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // c13
+            , <&weekin840_m2 10  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // c14
             ;
 
         // 行
         row-gpios
-            = <&weekin840_m2 34 GPIO_ACTIVE_HIGH>  // r0
-            , <&weekin840_m2 36 GPIO_ACTIVE_HIGH>  // r1
-            , <&weekin840_m2 38 GPIO_ACTIVE_HIGH>  // r2
-            , <&weekin840_m2 40 GPIO_ACTIVE_HIGH>  // r3
-            , <&weekin840_m2 42 GPIO_ACTIVE_HIGH>  // r4
+            = <&weekin840_m2 20 GPIO_ACTIVE_HIGH>  // r0
+            , <&weekin840_m2 22 GPIO_ACTIVE_HIGH>  // r1
+            , <&weekin840_m2 32 GPIO_ACTIVE_HIGH>  // r2
+            , <&weekin840_m2 34 GPIO_ACTIVE_HIGH>  // r3
+            , <&weekin840_m2 36 GPIO_ACTIVE_HIGH>  // r4
             ;
     };
 
