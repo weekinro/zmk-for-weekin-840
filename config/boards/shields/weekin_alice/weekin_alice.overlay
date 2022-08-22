@@ -41,7 +41,7 @@
         // 行
         row-gpios
             = <&weekin840_m2 20 GPIO_ACTIVE_HIGH>  // r0
-            , <&weekin840_m2 3  GPIO_ACTIVE_HIGH>  // r1
+            , <&weekin840_m2 4  GPIO_ACTIVE_HIGH>  // r1
             , <&weekin840_m2 32 GPIO_ACTIVE_HIGH>  // r2
             , <&weekin840_m2 34 GPIO_ACTIVE_HIGH>  // r3
             , <&weekin840_m2 36 GPIO_ACTIVE_HIGH>  // r4
