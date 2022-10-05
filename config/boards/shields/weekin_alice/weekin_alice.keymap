@@ -13,7 +13,7 @@
 #define NUMBER  1  //第二层
 #define SYMBOL  2  //第三层
 #define HOTKEY  3  //第四层
-#define SETTING 4  //第五层
+#define SETTING 4  //第五层的
 
 / {       //一下是宏功能
         // behaviors {
