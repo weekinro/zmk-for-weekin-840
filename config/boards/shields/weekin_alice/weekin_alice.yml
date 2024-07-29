@@ -1,6 +1,6 @@
 file_format: "1"
 id: weekin_alice
-name: Weekin_Alice
+name: Weekin_Alice_60
 type: shield
 url: 
 requires: [weekin840_m2]
