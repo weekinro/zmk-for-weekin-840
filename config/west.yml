@@ -7,7 +7,7 @@ manifest:
   projects:
     - name: zmk
       remote: kuolemax
-      revision: encder-fix
+      revision: encoder-fix
       import: app/west.yml
   self:
     path: config
